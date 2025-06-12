@@ -1,0 +1,52 @@
+body {
+  background-color: olive;
+  font-family: Arial, sans-serif;
+}
+.title {
+  font-family: 'Cooper', serif;
+  color: #2E4053;
+  font-size: 48px;
+  text-align: center;
+}
+
+fieldset {
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+  border: 2px solid #2E4053;
+}
+
+legend {
+  font-weight: bold;
+  color: #2E4053;
+  font-family: Calibri, sans-serif;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.th, .td {
+  padding: 10px;
+  border: 1px solid #999;
+}
+
+.date{
+  padding: 10 px;
+  border: 1px solid #999;
+}
+.input[type="submit"],
+.input[type="reset"]{
+  background-color: #2E4053;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.input[type="submit"]:hover,
+.input[type="reset"]:hover {
+  background-color: #1c2b3a;
+}

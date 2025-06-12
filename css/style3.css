@@ -1,0 +1,132 @@
+body {
+margin: 0;
+padding: 20px;
+font-family: Arial, sans-serif;
+background-color: black;
+}
+
+.container1 {
+width: 600px;
+height: 400px;
+border: 3px solid black;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(10, 1fr);
+background-color: white;
+
+}
+.container2 {
+width: 600px;
+height: 400px;
+border: 3px solid black;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(10, 1fr);
+background-color: white;
+
+}
+
+
+.verde {
+background-color: rgb(4, 73, 4);
+}
+.blanco {
+background-color: white;
+}
+
+
+.item {
+display: flex;
+align-items: center;
+justify-content: center;
+position:relative
+}
+
+
+.formato1:before {
+content: "Metalurgy is our business";
+color: rgb(4, 73, 4);
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.formato2:before {
+content: "CAMILO ORREGO MARTÍNEZ";
+color: white;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.formato3:before {
+content: "Ingeniero Técnico de Servicios";
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.formato4:before {
+content: "+56945584322";
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: black;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.formato5:before {
+content: "Vicuña Mackenna 3271";
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: black;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.formato6:before {
+content: "corrego1896@gmail.com";
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: grey;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.formato7:before {
+content: "www.multotec.com";
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: grey;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.blanco { grid-column: 2/4; grid-row: 1/2; }
+.slogan { grid-column: 2/4; grid-row: 3/4; }
+.verde { grid-column: 1/5; grid-row: 5/11; }
+
+.blanco2 { grid-column: 1/5; grid-row: 7/11; }
+.verde2 { grid-column: 1/5; grid-row: 1/4; }
+
+.nombre { grid-column:2/4; grid-row: 2; }
+.cargo { grid-column:2/4; grid-row: 3; }
+.telefono { grid-column:2/4; grid-row: 5; }
+.direccion { grid-column:2/4; grid-row: 6; }
+.correo{ grid-column:2/4; grid-row: 8; }
+.sitio { grid-column:2/4; grid-row: 9; }

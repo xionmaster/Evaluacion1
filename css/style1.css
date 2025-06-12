@@ -1,0 +1,33 @@
+.carrusel-inner {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+.carrusel-item {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.imagen-carrusel {
+  width: 100%;
+  height: auto; 
+  display: block; 
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    font-family: Calibri;
+    font-size:1.5em;
+    font-weight: bolder;
+    text-align: center;
+    ;
+}
+
+h2{
+    color:rgb(0, 0, 0);
+    font-family: Calibri;
+    font-size:1.5em;
+    text-align:center;
+    background-color: aliceblue;
+}
